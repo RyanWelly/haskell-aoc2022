@@ -44,7 +44,6 @@ parseMove s
 main :: IO ()
 main = do
     input <- readFile "day2.input"
-    putStrLn . show . roundScore . parseLine . head $ lines input  
     putStrLn . show $ tournamentScore input
 
 
